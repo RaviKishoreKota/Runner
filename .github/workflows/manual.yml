@@ -31,3 +31,8 @@ jobs:
       shell: bash
       run: "uname -a"
       run: echo "$PATH"
+    steps:
+    - name: Display the path
+      run: echo $PATH
+      shell: bash
+
